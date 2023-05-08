@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+.logo-resize{
+  width: 120px;
+}
+.input-search{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0px;
+  margin: 0px;
+  /* margin-top: 80px; */
+}
+.form-control{
+  width: 90%;
+}
+.search-input{
+background-color: #ffffff;
+box-shadow: black;
+}
+.search-button{
+  color: #ffffff;
+}
+.home-img{
+  width: 90%;
+}
+.background{
+  background-color: rgb(255, 210, 128);
+  margin: 0px;
+  padding: 0px;
+}
+.search-place{
+  margin-top: 60px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.164);
+}
+.icon-pack{
+ color:rgb(253, 194, 83);
+}
+.quick-info-headding{
+  font-size: 20px;
+}
+.quick-info-background{
+  background-color: rgb(255, 107, 107);
+  margin-left: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headding-style{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.category-headding{
+  font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon-padding{
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.curvededge{
+  border-radius: 10px;
+ 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.curvededge:hover{
+  box-shadow: 0px 0px 15px #ccc;
+}
+.fcource-img{
+width: 100%;
+border-radius: 10px;
+background-size: cover;
+}
+.image-circle{
+  background-size: cover;
+  border-radius: 40px;
+  width: 30px;
+  height: 30px;
+}
+.play-next{
+  background-color: palegreen;
+  /* height: min-content;
+  width: fit-content; */
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: auto;
+}
+.fcourse-total-div{
+  border-radius: 40px;
+}
+.background1{
+  border-radius: 10px;
+  background-color: #ccc;
+  margin: 0px;
+  padding: 0px;
+}
+.fcource-background{
+  background-color:red;
+}
+.fcource-background-child{
+  border-radius: 10px;
+  background-color:#ffffff;
+}
+.fcourse-padding{
+  padding: 5px 100px;
+}
+.headding-size{
+  font-size: 50px;
+  padding-right: 30px;
+}
+ul{
+  list-style-type: none;
+}
+.bg-lightdanger{
+  background-color: rgb(252, 199, 199);
+}
+.fullpad{
+  padding-bottom: 80px;
+}
+.image-circle-big{
+  background-size: cover;
+  border-radius: 40px;
+  width: 20%;
+  height: 20%;
+}
+.width{
+  width: 60px;
+}
+.top-no-shadow{
+  width: fit-content;
+  box-shadow: 0px 5px 5px  rgba(0, 22, 84, 0.4);
+}
+.img-fluid{
+  background-size: cover;
+}
+.width{
+  width: fit-content;
+}
+.border-circle{
+  border-radius: 10px;
+}
+.border-circle-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.success{
+    border-color: green;
+}
+.invalid{
+    border-color: red;
+}
+.back{
+    background-image: url('../src/pexels-jaime-reimer-2662116.jpg');
+    background-size: cover;
+}
+.error-div{
+    border-radius: 20px;
+}
+*{
+  box-sizing: border-box;
 }

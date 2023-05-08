@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import React from 'react'
+import './App.css'
+import About from './components/About'
+import CategoryParent from './components/category/CategoryParent'
+import FinstructorSlik from './components/famousinstructor/FinstructorSlik'
+import FcourcesParent from './components/featuredcources/FcourcesParent'
+import HotandtrendParent from './components/headdingcomponents/HotandtrendParent'
+import MeetInstructor from './components/headdingcomponents/MeetInstructor'
+import PopularCategoryParent from './components/headdingcomponents/PopularCategoryParent'
+import Homesearch from './components/Homesearch'
+import LearnupNavbar from './components/LearupNavbar'
+import QuickinfoParent from './components/quickinfo/QuickinfoParent'
+import OurStoryParent from "./components/headdingcomponents/OurStoryParent";
+import RecentArticalsParent from "./components/articals/RecentArticalsParent";
+// import React from 'react'
+// import './App.css';
+import Formvalidation from './Formvalidation';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LearnupNavbar>
+      <Homesearch/>
+      <QuickinfoParent/>
+      <PopularCategoryParent/>
+      <CategoryParent/>
+      <HotandtrendParent/>
+      <FcourcesParent/>
+      </LearnupNavbar>
+      <About/>
+      <MeetInstructor/>
+      <FinstructorSlik/>
+      <OurStoryParent/>
+      <RecentArticalsParent/>
+      {/* <Formvalidation/> */}
     </div>
-  );
+  )
 }
-
 export default App;
