@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react'
-import './App.css'
+// import './App.css'
 import About from './components/About'
 import CategoryParent from './components/category/CategoryParent'
 import FinstructorSlik from './components/famousinstructor/FinstructorSlik'
@@ -20,22 +20,21 @@ import Formvalidation from './Formvalidation';
 
 const App = () => {
   return (
-    <div>
-      <LearnupNavbar>
-      <Homesearch/>
-      <QuickinfoParent/>
-      <PopularCategoryParent/>
-      <CategoryParent/>
-      <HotandtrendParent/>
-      <FcourcesParent/>
-      </LearnupNavbar>
+    <>
+      <LearnupNavbar/>
+        <Homesearch/>
+        <QuickinfoParent/>
+        <PopularCategoryParent/>
+        <CategoryParent/>
+        <HotandtrendParent/>
+        <FcourcesParent/>
       <About/>
       <MeetInstructor/>
       <FinstructorSlik/>
       <OurStoryParent/>
       <RecentArticalsParent/>
       {/* <Formvalidation/> */}
-    </div>
+    </>
   )
 }
 export default App;

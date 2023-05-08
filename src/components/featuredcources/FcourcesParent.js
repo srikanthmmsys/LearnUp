@@ -3,7 +3,7 @@ import FcourcesChild from './FcourcesChild';
 import '../../App.css' 
 const FcourcesParent = () => {
   return (
-    <div className='row bg-light'>
+    <div className='row bg-light comonBack'>
       <div className='col-lg-6 fcourse-padding pr-lg-4'>
       <FcourcesChild mainImage="../../../images/1.jpg" MainHeadding="Learn Photoshop Cource CS6" rating="4.7" reviews="2,420" price="520" deleted="720" CircleImage="../../../images/user-1.jpg" name="Robort Wilson" lectures="54"  />
       </div>

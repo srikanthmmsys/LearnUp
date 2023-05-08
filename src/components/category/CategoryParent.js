@@ -4,7 +4,7 @@ import CategoryChild from './CategoryChild'
 const CategoryParent = () => {
    
   return (
-    <div className='row p-5'>
+    <div className='row p-5  comonBack'>
     <div className='col-md-6 col-lg-4 col-sm-12 '>
       <CategoryChild  backcolor="#ed959d" icon={<i className="fa-solid fa-computer fa-2x"></i>} headding="Development" number="23" />
     </div>

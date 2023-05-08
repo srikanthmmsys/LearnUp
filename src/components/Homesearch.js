@@ -5,8 +5,8 @@ import "../App.css";
 
 const Homesearch = () => {
   return (
-    <div className="background">
-      <Container>
+    <div className="background comonBack">
+      <Container fluid>
         <div className="row">
           <div className="col-md-6 col-12 pt-5">
             <h1>Start Learning With LearnUp Now</h1>

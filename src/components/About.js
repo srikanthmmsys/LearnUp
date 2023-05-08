@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import "../App.css";
 const About = () => {
   return (
-      <div className="bg-white fullpad">
+      <div className="bg-white  comonBack fullpad">
       <Container>
         <div className="row">
           <div className="col-md-6 col-12 pt-5">

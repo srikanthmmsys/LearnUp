@@ -3,7 +3,7 @@ import HeaddingChild from './HeaddingChild'
 
 const MeetInstructor = () => {
   return (
-    <div className='pb-5'>
+    <div className='pb-5 comonBack'>
       <HeaddingChild headding="Meet Instructors" spanhead="Top&Famous " mainHead="Instructor In Your City"/>
     </div>
   )

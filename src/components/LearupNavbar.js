@@ -8,7 +8,7 @@ import logo from '../img/logo.png';
 const LearnupNavbar = (props) => {
   return (
     <div>{props.children}
-      <Navbar bg="light" expand="lg" className="fixed-top">
+      <Navbar bg="light" expand="lg" className="fixed-top comonBack">
       <Container fluid>
         {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
         <img src={logo} className="logo-resize mr-5" alt='noimg'/>

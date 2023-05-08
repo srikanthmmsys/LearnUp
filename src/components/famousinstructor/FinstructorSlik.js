@@ -53,9 +53,9 @@ export default class FinstructorSlik extends Component {
       ]
     };
     return (
-      <div className="pl-5 pr-5 pb-5 mb-5">
+      <div className="pl-5 pr-5 pb-5 mb-5 comonBack">
         <center className="pb-5">
-        <Slider {...settings}>
+        <Slider {...settings} className="d-flex justify-content-center">
           <div>
             <FinstructorChild image="../../../images/user-6.jpg" name="Robort Wilson" work="Web Designer" students="32" cources="3" />
           </div>

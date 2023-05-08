@@ -3,7 +3,7 @@ import HeaddingChild from './HeaddingChild'
 
 const PopularCategoryParent = () => {
   return (
-    <div>
+    <div className='comonBack'>
       <HeaddingChild headding="Popular Category" spanhead="Hot&Popular" mainHead="Category For Learn" />
     </div>
   )
